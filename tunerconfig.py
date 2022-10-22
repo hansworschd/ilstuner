@@ -1,6 +1,6 @@
 # Enter the path to the earth_nav.dat file in quotes from your simulator
 # Usually somewhere like "C:\X-Plane 11\Custom Data\earth_nav.dat"
-pathToEarthNavData = "J:\X-Plane 11\Custom Data\earth_nav.dat"
+pathToEarthNavData = "pathNotSet"
 
 # Modfier for whole regions
 regionModifier = [
