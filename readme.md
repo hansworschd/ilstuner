@@ -1,5 +1,5 @@
 # ILSTuner
-This small python script can be used for an automatic extension of the default 18/30 miles of ILS systems in X-Plane.
+This is a small Python script which can be used for an automatic extension of the default 18/30 miles of ILS systems in X-Plane.
 
 ## Description
 The default range to receive an ILS signal in X-Plane 11 is 18 miles for GS and LOC and 30 miles for the identifier.
@@ -26,10 +26,12 @@ Update the `tunerconfig.py` accordingly.
 
 ## Personal suggestion
 As I have to start several tools to have my full setup, I created a batch file to open several applications.
-Within this startup process, I included the script to update the files after e.g. a Navigraph update automatically.
+Within this startup process, I included the script, to update the earth_nav.dat everytime.
+So e.g. if you update your navdata with Navigraph, the script will take the latest file and modifies it so that you do not need to remind yourself to run the tuner.
 So even after getting the newest AIRAC, the script will perform the tuning and update the ranges.
 
 ## Disclaimer
 You are running the script by your own risk!
 **Yes, it will update your earth_nav.dat file when configured correctly!**
 Do a backup upfront!
+Be sure to not publish the modified files as Navigraph has the copyright.
