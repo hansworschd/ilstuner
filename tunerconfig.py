@@ -97,5 +97,11 @@ airportModifier = [
         "gs": 20,
         "loc": 30,
         "ident": 60
-    }
+    },
+    {
+        "icao": "LOWW",
+        "gs": 20,
+        "loc": 30,
+        "ident": 60
+    },
 ]
