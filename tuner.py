@@ -4,10 +4,6 @@ if cfg.pathToEarthNavData == "pathNotSet":
     print("ERROR: please set the path to your earth_nav.dat file")
     exit()
 
-newNavText = ""
-navFile = open(cfg.pathToEarthNavData, "r")
-
-
 def my_replacer(my_newline, my_replacevalue, my_region, my_airport):
     for r in cfg.regionModifier:
         if r["region"] == my_region:
@@ -19,8 +15,10 @@ def my_replacer(my_newline, my_replacevalue, my_region, my_airport):
 
     return my_newline
 
-# Loop over nav file
-lineCount = 0;
+
+newNavText = ""
+navFile = open(cfg.pathToEarthNavData, "r")
+
 for line in navFile:
     splittedLine = line.split()
 

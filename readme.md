@@ -23,3 +23,13 @@ May work with other Python versions as well.
 You can define your own rules how the tuner script behaves.
 Update the `tunerconfig.py` accordingly.
 **Airport config will overwrite Region config.**
+
+## Personal suggestion
+As I have to start several tools to have my full setup, I created a batch file to open several applications.
+Within this startup process, I included the script to update the files after e.g. a Navigraph update automatically.
+So even after getting the newest AIRAC, the script will perform the tuning and update the ranges.
+
+## Disclaimer
+You are running the script by your own risk!
+**Yes, it will update your earth_nav.dat file when configured correctly!**
+Do a backup upfront!
